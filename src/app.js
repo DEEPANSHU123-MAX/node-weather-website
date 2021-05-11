@@ -21,7 +21,7 @@ app.use(express.static(publicdirectory))
 
 
 
-// setup hadlebars engine and views location
+// setup hadlebars engine and views Location
 app.set('view engine', 'hbs')
 app.set('views', Viewsdirectory)
 hbs.registerPartials(partialspath)
