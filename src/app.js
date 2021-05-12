@@ -7,6 +7,8 @@ const forecast = require('./utils/forecast')
 
 const app = express()
 
+const port = process.env.PORT || 3000
+
 // define path for express config
 const publicdirectory = path.join(__dirname ,'../public')
 
@@ -125,6 +127,6 @@ app.get('*' , (req , res)=>{
 
 // Now we use app.listen function  to initialize the server it takes two argument one is the port to run the server and other is callback function
 
-app.listen(3000 , ()=>{
-    console.log("server is successfully set up on 3000 port")
+app.listen(port , ()=>{
+    console.log("server is successfully set up on 3000 " + port)
 })
