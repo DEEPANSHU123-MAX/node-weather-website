@@ -128,5 +128,5 @@ app.get('*' , (req , res)=>{
 // Now we use app.listen function  to initialize the server it takes two argument one is the port to run the server and other is callback function
 
 app.listen(port , ()=>{
-    console.log("server is successfully set up on 3000 " + port)
+    console.log("server is successfully set up on  " + port)
 })
