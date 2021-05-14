@@ -7,7 +7,13 @@
     <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<p>
+
+</p>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>{{helpText}}</p>
+        <p>
     If you want to start using Free or paid weather API, please read ‘How to start and operate with API more efficiently’.
 
 If you are ready to subscribe to our paid plans, please read ‘No-fuss subscription to our weather services’ first.
@@ -20,12 +26,7 @@ If you are an Enterprise license holder you can request for expanded features, c
 
 More than ever, our customer support team is at your side to answer all your questions and respond to your needs in the best possible way.
 
-If you do not find answers to your questions about purchasing process, subscriptions, products, please look at our comprehensive FAQ or contact our customer support team.
-</p>
-<body>
-    <div class="main-content">
-        {{>header}}
-        <p>{{helpText}}</p>
+If you do not find answers to your questions about purchasing process, subscriptions, products, please look at our comprehensive FAQ or contact our customer support team.</p>
     </div>
     
     {{>footer}}
