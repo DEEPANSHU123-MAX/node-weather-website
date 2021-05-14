@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/style.css">
+   
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+<h1>Documentation</h1>
+<p>
+    When you want to play around with APIs, Weatherstack is a great place to start. They actually have 11 different APIs (all related to weather) that you can access.
+For this project we’ll be using the Free ‘Current Weather’ API. Head on over to <a href='https://weatherstack.com/'>this link</a> and sign up for an account. All you need is an email address and password.
+Once signed in, select the API keys tab. From Here you can Create a Key on the right hand side of the page. Enter a name (anything works) and select generate. Your API Key will appear on the left. Copy this key for later. I also used The Mapbox web services APIs allow you to programmatically access Mapbox tools and services. You can use these APIs to retrieve information about your account, upload and change resources, use core Mapbox tools, and more. you ca reach to the Api by<a href='https://docs.mapbox.com/api/overview/'>MapboxApi</a>.
+
+Mapbox APIs are divided into four distinct services: Maps, Navigation, Search, and Accounts. Each of these services has its own overview page in this documentation. These overview pages are divided into the individual APIs that make up the service. The documentation for each API is structured by endpoints. An endpoint is a specific method within an API that performs one action and is located at a specific URL.
+
+</p>
+
+    </div>
+   
+    {{>footer}}
+     <script src="/js/app.js"></script>
+</body>
+
+</html>

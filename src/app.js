@@ -53,6 +53,16 @@ app.get('/help' , (req , res)=>{
     })
 })
 
+
+app.get('/docs' , (req , res)=>{
+    res.render('Docs' ,{
+        example:'Example the things',
+        name:'deepanshu',
+        title:'Docs'
+       
+    })
+})
+
 // '' , this place is to fill for route where, req will take request for the given route adn res will retutn the response to the user in browser.
 
 // examples of route
